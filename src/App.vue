@@ -1,16 +1,16 @@
 <template>
-  <div
-      class="w-full bg-center bg-cover"
-      :style="{ backgroundImage: 'url(./assets/background.png)' }"
-      style='height: calc(100vh - 3rem);'
-  >
-  </div>
+<!--  <div-->
+<!--      class="w-full bg-center bg-cover"-->
+<!--      :style="{ backgroundImage: 'url(./assets/background.png)' }"-->
+<!--      style='height: calc(100vh - 3rem);'-->
+<!--  >-->
+<!--  </div>-->
 
 
-<!--    <img-->
-<!--        src="./assets/background.png"-->
-<!--        class="h-screen bg-center bg-cover"-->
-<!--    >-->
+    <img
+        src="./assets/background.png"
+        class="h-screen bg-center bg-cover"
+    >
 </template>
 
 <script>
