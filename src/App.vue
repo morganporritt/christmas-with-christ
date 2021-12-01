@@ -1,31 +1,50 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/calendar">Calendar</router-link>
-    <router-link to="/more">More</router-link>
+  <div class="bg-black">
+    <div class="relative">
+      <div
+          class="page_banner_image w-full bg-center bg-cover"
+          :style="{ backgroundImage: 'url(' + require('@/assets/images/background.png') + ')' }"
+          style='height: calc(100vh - 3rem);'
+      >
+        <div class="absolute pr-3 text-center text-gray-50 top-24 right-0.5 md:right-4 w-max">
+          <h1 class="text-xl sm:text-5xl lg:text-6xl xl:text-7xl">Christmas</h1>
+          <h1 class="text-xs">with</h1>
+          <h1 class="text-xl sm:text-5xl lg:text-6xl xl:text-7xl">Christ</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <Navigation></Navigation>
   </div>
-  <router-view/>
 </template>
 
+<script>
+import Navigation from "@/components/Navigation/Navigation";
+export default {
+  components: {Navigation}
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@font-face {
+  font-family: "TrajanRegular";
+  src: local("TrajanRegular"),
+  url(./assets/fonts/TrajanPro3Regular.ttf) format("truetype");
 }
 
-#nav {
-  padding: 30px;
+@font-face {
+  font-family: "TrajanBold";
+  src: local("TrajanBold"),
+  url(./assets/fonts/TrajanPro3Bold.ttf) format("truetype");
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+h1 {
+  font-family: 'TrajanRegular', serif;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+h2 {
+  font-family: 'TrajanBold', serif;
 }
+
 </style>
