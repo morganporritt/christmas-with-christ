@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black">
+  <div>
     <div class="relative">
       <div
           class="page_banner_image w-full bg-center bg-cover"
@@ -8,7 +8,7 @@
       >
         <div class="absolute pr-3 text-center text-gray-50 top-24 right-0.5 md:right-4 w-max">
           <h1 class="text-xl sm:text-5xl lg:text-6xl xl:text-7xl">Christmas</h1>
-          <h1 class="text-xs">with</h1>
+          <h1 class="text-xs sm:text-base lg:text-lg">with</h1>
           <h1 class="text-xl sm:text-5xl lg:text-6xl xl:text-7xl">Christ</h1>
 
         </div>
