@@ -44,6 +44,11 @@ export default {
   setup() {
     function currentDayOfTheMonth() {
       const current = new Date();
+      // console.log('Month: ', current.getMonth());
+      // If not December then just return 0 here to show first slide.
+      if (current.getMonth() != 11) {
+        return 0;
+      }
       return current.getDate() - 1;
     }
 
