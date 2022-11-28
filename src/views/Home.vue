@@ -48,7 +48,7 @@ export default {
     }
 
     const slideOptions = {
-      speed: 500,
+      speed: 200,
       easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
       interval: 10000,
       lazyLoad: true,
