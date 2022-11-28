@@ -363,7 +363,7 @@ export default {
           dateString: 'December 23rd',
           title: 'Appearances, Post Mortal',
           videoSrc: 'https://www.youtube.com/embed/pUb1Kwlgitw',
-          videoSrc2: 'https://www.youtube.com/embed/F9-2vPFtL_c',
+          // videoSrc2: 'https://www.youtube.com/embed/F9-2vPFtL_c', Removing because video is unavailable
           additionalStudyLink:
             'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-appearances-postmortal?lang=eng',
           questions: [
