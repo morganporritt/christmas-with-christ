@@ -43,3 +43,15 @@ export default {
   },
 };
 </script>
+
+<style>
+@font-face {
+  font-family: 'TrajanRegular';
+  src: local('TrajanRegular'),
+    url(../../assets/fonts/TrajanPro3Regular.ttf) format('truetype');
+}
+
+#nav {
+  font-family: 'TrajanRegular', serif;
+}
+</style>
