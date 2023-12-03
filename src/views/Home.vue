@@ -274,7 +274,6 @@ export default {
           additionalStudyLink:
             'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-mission-of?lang=eng',
           questions: [
-            'Test',
             'How have you seen the mission of Jesus Christ fulfilled in your life or in the life of those around you?',
             'What is your mission?',
             'Share a mission story from a family member.',
