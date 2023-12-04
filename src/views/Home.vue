@@ -194,7 +194,7 @@ export default {
           id: 9,
           dateString: 'December 9th',
           title: 'Appearances, Antemortal',
-          videoSrc: 'https://www.youtube.com/embed/tktmOxbZz0A',
+          videoSrc: 'https://www.youtube.com/embed/YE6LyQpOl_4',
           additionalStudyLink:
             'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-appearances-antemortal?lang=eng',
           questions: [
