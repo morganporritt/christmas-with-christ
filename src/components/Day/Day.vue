@@ -9,12 +9,20 @@
 
           <div class="video-wrap">
             <div class="video-container">
-              <iframe
+              <template v-if="videoSrc">
+                <iframe
                   width="560" height="315"
                   :src="videoSrc"
                   allowfullscreen
-              >
-              </iframe>
+                >
+                </iframe>
+              </template>
+              <template v-else-if="videoFile">
+                <video width="560" height="315" controls>
+                  <source :src="`/${videoFile}`" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </template>
             </div>
           </div>
 
@@ -103,6 +111,7 @@
         title: String,
         dateString: String,
         videoSrc: String,
+        videoFile: String,
         videoSrc2: String,
         videoSrc3: String,
         videoSrc4: String,
